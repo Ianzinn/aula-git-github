@@ -1,6 +1,9 @@
+package teste;
 
 public class Teste {
     public static void main(String[] args) {
-        System.out.println("Olá, mundo!");
+        int num1 = 3, num2 = 5, soma;
+        soma = num1 + num2;
+        System.out.println("A soma é: " + soma);
     }
 }
